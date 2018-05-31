@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  background-color: grey;
+
+}
+
+
+.header {
+  line-height: 64px;
+  width: auto;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 16px;
+}
+
+.btn {
+
+
+}
+
+nav {
+  align-items: flex-end;
+
+}
+nav .title {
+  float: left;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  padding-right: 60%;
+
+}
+
+/*Learn*/
+
+.banner {
+  background-image: url('../images/banner.jpg');
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: left;
+  margin-top: 32px;
+
+}
+
+.banner img {
+  width: auto;
+  height: 100%;
+}
+
+.banner-learn {
+  color: red;
+
+}
+
+.banner h2 {
+  font-size: 50px;
+}
+
+.banner h3 {
+
+}
+
+/* learn-gallery */
+ .Software {
+  background-image: url('../images/course-software.jpg');
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: left;
+ }
+
+ .Computer {
+   background-image: url('../images/course-computer-art.jpg');
+   background-size: 60%;
+   background-repeat: no-repeat;
+   background-position: left;
+ }
+
+.Design {
+  background-image: url('../images/course-design.jpg');
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.Data {
+  background-image: url('../images/course-data.jpg');
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.Busness {
+  background-image: url('../images/course-business.jpg');
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.Market {
+  background-image: url('../images/course-marketing.jpg');
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+
+footer {
+  background-color: black;
+  padding-left: 24px;
+}
+
+footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5em 0;
+  color: white;
+  padding-top: 16px;
+}
