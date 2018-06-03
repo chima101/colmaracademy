@@ -397,8 +397,9 @@ nav ul li {
 
 .thesis-one {
     color: #bebbbb;
+
 }
-.thesis-wrapper {
+.thesis-wrapper{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -420,13 +421,13 @@ nav ul li {
 
 .thesis-text-2 {
     width: 60%;
+    height: auto;
 }
 
 .thesis-wrapper.thesis-two {
     background-color: white;
 }
-.thesis-two {
-}
+
 .thesis-wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -447,9 +448,11 @@ nav ul li {
     padding-left: 1rem;
 }
 
-.thesis-text-3 {
+.thesis-two {
     width: 60%;
 }
+
+
 
 .thesis-wrapper.thesis-two h1 {
     padding-top: 1.4rem;
@@ -459,9 +462,14 @@ nav ul li {
     margin-bottom: 8px;
 }
 
-.thesis-img-small-text h2 {
+.thesis-text-3 h2 {
     font-size: .8rem;
     margin-bottom: 8px;
+}
+
+.thesis-small {
+  width: auto;
+  height: auto;
 }
 
 
