@@ -151,11 +151,11 @@ nav ul li {
 }
 
 header a:hover {
-  background-color: black;
+  background-color: rgba(146, 16, 70, 0.45);
   color: #bebbbb;
   text-decoration: none;
   text-align: center;
-  width: 100%;
+  width: 10%;
   height: 3rem;
   border-radius: 5px 5px 5px 5px;
   box-shadow: 0.8px 0.8px darkgrey
@@ -172,7 +172,7 @@ height: 4rem;
 width: 100%;
 padding-left: 2rem;
 padding-right: 2rem;
-z-index: 999;
+z-index: 10;
 }
 
 .mobileimages {
@@ -447,19 +447,32 @@ z-index: 999;
 @media only screen and (max-width: 550px) {
   .information {
       display: flex;
-      flex-wrap: wrap;
-      flex-direction: column;
+
+
       align-items: center;
       height: auto;
       width: 100%;
       min-width: 100%;
       background-color: grey;
+      justify-content: center;
+      text-align: center;
   }
   .information-main {
     display: none;
   }
   .info-small {
     background-color: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .information img {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
   }
 
 }
@@ -548,6 +561,8 @@ z-index: 999;
   width: 60%;
   min-width: 100%;
   background-color: rgba(146, 16, 70, 0.75);
+  align-items: center;
+  justify-content: center;
 
 }
 
@@ -713,7 +728,12 @@ z-index: 999;
     z-index: 1;
   }
 }
+.thesis {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
+}
 
 
 /*footer*/
