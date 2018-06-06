@@ -350,12 +350,13 @@ z-index: 10;
     align-items: flex-start;
     height: auto;
     width: 100%;
+    color: rgba(255, 255, 255, .9);
 }
 
 .information-text h1 {
     font-size: 2rem;
     font-weight: bold;
-    color: black;
+    color: rgba(255, 255, 255, .9);
     margin-bottom: 1rem;
     margin-left: 1.5rem;
 }
@@ -363,14 +364,14 @@ z-index: 10;
 .information-text h2 {
     font-weight: normal;
     font-size: 1rem;
-    color: black;
+    color: rgba(255, 255, 255, .9);
     font-weight: 500;
     margin-bottom: 1rem;
     margin-left: 1.5rem;
 }
 
 .information-text span {
-   color: black;
+   color: rgba(255, 255, 255, .9);
     font-size: .8rem;
     margin-left: 1.5rem;
     padding-bottom: 2rem;
@@ -386,6 +387,7 @@ z-index: 10;
     background-color: rgba(255, 255, 255, 0.2);
     padding-top: 2rem;
     padding-left: 1rem;
+    color: rgba(255, 255, 255, .9);
 }
 
   .info-one {
@@ -429,9 +431,6 @@ z-index: 10;
     width: 100%;
     height: auto;
 }
-.infoimg-lecture-content {
-    width: 60%;
-}
 
 .info-three img {
     padding-top: 1rem;
@@ -447,8 +446,6 @@ z-index: 10;
 @media only screen and (max-width: 550px) {
   .information {
       display: flex;
-
-
       align-items: center;
       height: auto;
       width: 100%;
@@ -477,8 +474,16 @@ z-index: 10;
 
 }
 
-
-
+.info-small span:hover {
+  background-color: black;
+  color: rgba(255, 255, 255, .9);
+  text-decoration: none;
+  text-align: center;
+  width: 10%;
+  height: 3rem;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 0.8px 0.8px darkgrey
+}
 
 
 
@@ -667,8 +672,9 @@ z-index: 10;
     padding-left: 1rem;
 }
 
-.thesis-two {
-
+.thesis-vid {
+  width: 60%;
+  height: auto;
 }
 
 
